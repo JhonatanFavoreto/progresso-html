@@ -4,13 +4,23 @@
     box-sizing: 0%;
 }
 
-.quadrado{
+body {
     height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quadrado{
+    width: 200px;
+    height: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
     flex-direction: column;
+    background-color: black;
+    border-radius: 75px;
 }
 
     .circulo1{
@@ -18,6 +28,7 @@
         height: 150px;
         background-color: red;
         border-radius: 100%;
+        box-shadow: 0 4px 10px #ff0000;
     }
 
     .circulo2{
@@ -25,11 +36,13 @@
         height: 150px;
         background-color: yellow;
         border-radius: 100%;
+        box-shadow: 0 4px 10px #ffff00;
        }
 
     .circulo3{
         width: 150px;
         height: 150px;
-        background-color: green;
+        background-color: greenyellow;
         border-radius: 100%;
+        box-shadow: 0 4px 10px #00ff00;
        }
