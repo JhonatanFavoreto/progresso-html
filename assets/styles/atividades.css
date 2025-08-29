@@ -1,12 +1,25 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: 0%;
 }
 
 .quadrado {
-    width: 23%;
-    height: 170px;
-    background-color: blue;
-    margin: 40px auto;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
 }
+
+    .quadrado1{
+        width: 150px;
+        height: 150px;
+        background-color: greenyellow;
+    }
+
+    .quadrado2{
+        width: 150px;
+        height: 150px;
+        background-color: blue;
+       }
